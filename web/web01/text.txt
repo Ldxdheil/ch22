@@ -1,0 +1,4 @@
+Nombre: Luis Saucedo.
+Edad: 18 años.
+Gustos: Música, ejercicio, dibujo, computadoras.
+
