@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+body {
+  background: rgb(208, 184, 114);
+  background: linear-gradient(
+    126deg,
+    rgba(208, 184, 114, 1) 15%,
+    rgba(247, 255, 183, 1) 100%
+  );
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 6%;
+  position: fixed;
+}
+
+header li {
+  margin-left: 30px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+}
+
+header li:hover {
+  border-bottom: 2px solid white;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 5%;
+}
+
+.content {
+  padding-top: 15%;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #5d2747;
+}
+
+.content h4,
+.content h5 {
+  font-size: 20px;
+  color: #9f3647;
+}
+
+h1,
+h4,
+h5,
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: #9f3647;
+  transition: all 0.55s ease;
+}
+
+.btn:hover {
+  transform: translateX(7px);
+  background: none;
+  border: 1px solid white;
+}
+
+.image img {
+    border-radius: 30px;
+}
+
+.social-media {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+}
+
+.social-media i{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.social-media i:hover{
+    transition: all 0.55s ease;
+    color: white0;
+}
+
+.table-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 80%;
+  text-align: center;
+}
+
+th {
+  color: #5d2747;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+td {
+  color: #9f3647;
+  font-weight: 500;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 10px 5px;
+}

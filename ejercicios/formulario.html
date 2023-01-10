@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contáctanos</h1>
+    </header>
+
+    <main>
+      <section>
+        <form action="" method="">
+          <fieldset>
+            <legend>Datos personales de contacto</legend>
+
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Luis" required />
+
+            <label for="lastname">Apellido</label>
+            <input id="lastname" type="text" placeholder="Saucedo" required />
+
+            <label for="email">Correo Electrónico</label>
+            <input id="email" type="email" placeholder="tucorreo@correo.com" autocomplete="email"/>
+          </fieldset>
+
+          <fieldset>
+            <legend>Datos del pedido</legend>
+
+            <label for="number-of-tamales">¿Cuántos tamales requiere?</label>
+            <input id="number-of-tamales" type="number" min="20" max="500" />
+
+            <label for="atole">¿Cuántos litros de atole requiere?</label>
+            <input id="atole" type="number" min="2" max="50" />
+
+            <label for="date"> Fecha del evento: <input type="date" id="date"> </label>
+
+          </fieldset>
+
+          <fieldset>
+            <legend> Datos del envío </legend>
+            <select name="stores" id="stores">
+                <option value="Sucursal Azcapotzalco">Sucursal Azcapotzalco</option>
+                <option value="Sucursal Acuitlapilco">Sucursal Acuitlapilco</option>
+                <option value="Sucursal Ciudad Alegre">Sucursal Ciudad Alegre</option>
+                <option value="Envío a domicilio">Envío a domicilio</option>
+            </select>
+            <!-- Aquí se hace scroll para elegir la opción -->
+
+
+            <input list="stores2">
+            <datalist id="stores2">
+                <option value="Sucursal Azcapotzalco">Sucursal Azcapotzalco</option>
+                <option value="Sucursal Acuitlapilco">Sucursal Acuitlapilco</option>
+                <option value="Sucursal Ciudad Alegre">Sucursal Ciudad Alegre</option>
+                <option value="Envío a domicilio">Envío a domicilio</option>
+            </datalist>
+
+            <input type="radio" id="delivery"  name="delivery-option"> Recoger en Sucursal
+            <input type="radio" id="" name="delivery-option"> Envío a domicilio
+
+            <label for="verify"><input type="checkbox" id="verify">He leído y acepto los términos y condiciones.</label>
+
+            <input type="submit" value="">
+
+            <button type="submit">Enviar ya!</button>
+
+          </fieldset>
+
+        </form>
+
+      </section>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(236,226,218);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav a {
+    margin: 5px 10px;
+}
+

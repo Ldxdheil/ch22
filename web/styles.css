@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table, td, th {
+    border: 2px solid black;
+    text-align: center;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+.promo-tab {
+    border: 2px dashed green;
+}
